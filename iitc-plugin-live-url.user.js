@@ -3,7 +3,7 @@
 // @name IITC Plugin: Live URL
 // @category Tweaks
 // @version 0.1.0
-// @namespace https://www.renevlugt.nl/iitc-plugins/liveUrl
+// @namespace https://github.com/WacesRedky/IITC_Plugins/raw/master/iitc-plugin-live-url.user.js
 // @description Refresh URL in browser on drag and zoom map
 // @downloadURL https://github.com/WacesRedky/IITC_Plugins/raw/master/iitc-plugin-live-url.user.js
 // @updateURL   https://github.com/WacesRedky/IITC_Plugins/raw/master/iitc-plugin-live-url.user.js
