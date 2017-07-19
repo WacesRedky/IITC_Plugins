@@ -2,7 +2,7 @@
 // @id liveUrl
 // @name IITC Plugin: Live URL
 // @category Tweaks
-// @version 0.1.0
+// @version 0.1.1
 // @namespace https://github.com/WacesRedky/IITC_Plugins/raw/master/iitc-plugin-live-url.user.js
 // @description Refresh URL in browser on drag and zoom map
 // @downloadURL https://github.com/WacesRedky/IITC_Plugins/raw/master/iitc-plugin-live-url.user.js
@@ -41,7 +41,7 @@ function wrapper(plugin_info) {
 
   // The entry point for this plugin.
   function setup() {
-    window.map.on('moveend zoomend', window.plugin.liveUrl.refreshUrl);
+    window.map.on('moveend', window.plugin.liveUrl.refreshUrl);
     window.addHook('portalDetailLoaded', window.plugin.liveUrl.refreshUrl);
   };
 
